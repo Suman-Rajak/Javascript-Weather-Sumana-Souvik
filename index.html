@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <title>Midnapore College's Weather Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="intro">Welcome to Our Website</h1>
+    <div id="searchContainer">
+        <input class="searchControl" type="text" placeholder="Enter City" id="searchInput">
+        <button class="searchControl" id="searchBtn">Go!</button>
+    </div>
+    <div id="weatherContainer">
+        <div id="weatherDescription">
+            <h1 id="cityHeader"></h1>
+            <div id="weatherMain">
+                <div id="temperature"></div>
+                <div id="weatherDescriptionHeader"></div>
+                <div><img id="documentIconImg"></div>
+            </div>
+            <hr>
+            <div id="windSpeed" class="bottom-details"></div>
+            <div id="humidity" class="bottom-details"></div>
+        </div>
+        <div id="volumeicon">
+            <ion-icon id="volume" name="volume-high"></ion-icon>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+
+    <!-- Ion Icon Script -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
